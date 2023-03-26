@@ -1,0 +1,13 @@
+{
+  "name": "my-cli",
+  "version": "1.0.0",
+  "scripts": {
+    "start": "node src/index.js"
+  },
+  "pkg": {
+    "scripts": "start",
+    "targets": [
+      "node12-win-x64"
+    ]
+  }
+}

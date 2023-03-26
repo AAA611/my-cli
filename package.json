@@ -1,19 +1,19 @@
 {
   "main": "./src/index.js",
   "bin": {
-    "my-cli": "src/index.js"
+    "my-cli": "./src/index.js"
   },
   "author": "WangDongDong",
   "dependencies": {
     "progress": "^2.0.3"
   },
-  "name": "my-cli",
+  "name": "my-cli-wdd",
   "description": "",
-  "version": "1.0.0",
+  "version": "1.0.4",
   "devDependencies": {},
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "keywords": [],
+  "keywords": ["cli","scan dir"],
   "license": "ISC"
 }
